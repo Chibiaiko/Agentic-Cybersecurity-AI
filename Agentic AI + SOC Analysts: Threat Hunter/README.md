@@ -80,8 +80,9 @@ SOC analysts can use the official ATT&CK matrix to:
 Coverage is behavior-driven and depends on available telemetry rather than static rule matching.
 
 📌 **Reference**
-- [MITRE ATT&CK Matrix (April 2024 Poster – PDF)]
-  ![Screenshot_29-1-2026_121511_](https://github.com/user-attachments/assets/579ea676-ba13-499c-8acc-b06a2c7b88af)
+- MITRE ATT&CK Matrix (April 2024 Poster)
+  ![Screenshot_29-1-2026_121511_](https://github.com/user-attachments/assets/a4448fb9-f0ef-4389-88a8-504d149585e8)
+
 ---
 
 ## MITRE ATT&CK Coverage 
