@@ -28,7 +28,6 @@ This project uses MITRE ATT&CK as a **shared language** between vulnerability
 management, detection engineering, and threat hunting.
 
 ---
-
 ## Key Capabilities
 
 🔍 **Threat Hunting**
@@ -52,6 +51,7 @@ management, detection engineering, and threat hunting.
         - Helps SOC teams hunt by adversary behavior, not tool signatures
 
 ---
+
 ## Threat Hunting Workflow
 -----
     Analyst Question
@@ -99,7 +99,6 @@ The framework is capable of supporting **multiple ATT&CK tactics**, depending on
 | Lateral Movement | ⚠️ Partial | Caller/device relationships |
 | Command & Control | ⚠️ Partial | Depends on log source |
 | Defense Evasion | ⚠️ Partial | Requires expanded telemetry |
-
 ---
 
 ## What This POC Does Well
@@ -113,7 +112,6 @@ The framework is capable of supporting **multiple ATT&CK tactics**, depending on
 
 ✅ Enables hypothesis-driven threat hunting  
 - Analyst → AI → Logs → AI → Analyst loop  
-
 ---
 
 ## Current Gaps (Honest Assessment)
@@ -131,7 +129,6 @@ These require:
 - Additional log tables
 - Expanded KQL queries
 - Explicit MITRE tagging in prompts or output schemas
-
 ---
 
 ## Why This Matters
@@ -145,9 +142,7 @@ This agentic approach:
   ✅ Supports proactive threat hunting  
   ✅ Keeps humans in the loop  
   ✅ Makes investigations faster, clearer, and repeatable  
-
 ---
-
 🗺️## Scope & Roadmap
 
 This project demonstrates the **core architecture and agentic workflow**
