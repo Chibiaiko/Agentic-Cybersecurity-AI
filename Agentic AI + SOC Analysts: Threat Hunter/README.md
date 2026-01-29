@@ -72,10 +72,10 @@ management, detection engineering, and threat hunting.
 This project is designed around the **MITRE ATT&CK framework** for adversary behavior–driven threat hunting.
 
 SOC analysts can use the official ATT&CK matrix to:
-- Plan hypothesis-driven hunts by tactic and technique
-- Identify telemetry gaps
-- Validate coverage across the kill chain
-- Align investigations with industry-standard adversary models
+  - Plan hypothesis-driven hunts by tactic and technique
+  - Identify telemetry gaps
+  - Validate coverage across the kill chain
+  - Align investigations with industry-standard adversary models
 
 Coverage is behavior-driven and depends on available telemetry rather than static rule matching.
 
@@ -88,31 +88,33 @@ Coverage is behavior-driven and depends on available telemetry rather than stati
 ## MITRE ATT&CK Coverage 
 
 The framework is capable of supporting **multiple ATT&CK tactics**, depending on:
-- Log sources queried
-- KQL queries used
-- Prompt design
+  - Log sources queried
+  - KQL queries used
+  - Prompt design
 
-| MITRE Tactic | Supported | How |
-|-------------|----------|-----|
-| Initial Access | ⚠️ Partial | Suspicious logon patterns |
-| Credential Access | ✅ Yes | Logon events, callers, identities |
-| Discovery | ⚠️ Partial | Identity & device exploration |
-| Lateral Movement | ⚠️ Partial | Caller/device relationships |
-| Command & Control | ⚠️ Partial | Depends on log source |
-| Defense Evasion | ⚠️ Partial | Requires expanded telemetry |
+| MITRE Tactic        | Supported    | How |
+|-------------        |----------    |--------|
+| Initial Access      | ⚠️ Partial  | Suspicious logon patterns |
+| Credential Access   | ✅ Yes      | Logon events, callers, identities |
+| Discovery           | ⚠️ Partial  | Identity & device exploration |
+| Lateral Movement    | ⚠️ Partial  | Caller/device relationships |
+| Command & Control   | ⚠️ Partial  | Depends on log source |
+| Defense Evasion     | ⚠️ Partial  | Requires expanded telemetry |
 ---
 
 ## What This POC Does Well
 
+
 ✅ Demonstrates **agentic decision-making**  
-- AI chooses *what* to query, not just *how to analyze*
+  - AI chooses *what* to query, not just *how to analyze*
 
 ✅ Reduces analyst cognitive load  
-- Pre-filters massive logs  
-- Summarizes suspicious activity  
+  - Pre-filters massive logs  
+  - Summarizes suspicious activity  
 
 ✅ Enables hypothesis-driven threat hunting  
-- Analyst → AI → Logs → AI → Analyst loop  
+  - Analyst → AI → Logs → AI → Analyst loop  
+
 ---
 
 ## Current Gaps (Honest Assessment)
@@ -134,15 +136,18 @@ These require:
 
 ## Why This Matters
 
-Traditional SOC workflows:
-  ❌ Alert-driven  
-  ❌ Reactive  
-  ❌ High analyst burnout  
+🔁 Traditional SOC workflows:
+  
+   ❌ Alert-driven  
+   ❌ Reactive  
+   ❌ High analyst burnout  
 
-This agentic approach:
-  ✅ Supports proactive threat hunting  
-  ✅ Keeps humans in the loop  
-  ✅ Makes investigations faster, clearer, and repeatable  
+🔄 This agentic approach:
+  
+   ✅ Supports proactive threat hunting  
+   ✅ Keeps humans in the loop  
+   ✅ Makes investigations faster, clearer, and repeatable  
+
 ---
 🗺️## Scope & Roadmap
 
