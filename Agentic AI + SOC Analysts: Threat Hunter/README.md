@@ -9,7 +9,7 @@
 
 <h1 align="center">Agentic AI + SOC Analysts: Threat Hunter</h1>
 
-## Overview
+## 📝 Overview
 This project demonstrates a **prototype, AI-augmented threat hunting workflow**
 where an agentic AI collaborates with SOC analysts to:
 
@@ -28,7 +28,7 @@ This project uses MITRE ATT&CK as a **shared language** between vulnerability
 management, detection engineering, and threat hunting.
 
 ---
-## Key Capabilities
+## 🔑 Key Capabilities
 
 🔍 **Threat Hunting**
         - Converts analyst questions into log analytics queries
@@ -51,7 +51,40 @@ management, detection engineering, and threat hunting.
         - Helps SOC teams hunt by adversary behavior, not tool signatures
 
 ---
+# 「Scan Summary & Report」
 
+## 👩‍💻KQL Queries:
+
+  <img width="557" height="338" alt="Querying" src="https://github.com/user-attachments/assets/79fd2d09-4600-4071-940c-dcae74c8109b" />
+
+
+## 📑Summary of Findings:
+
+   -⚠️Potential Threat 1:
+      
+  <img width="746" height="414" alt="Potential Threat 1" src="https://github.com/user-attachments/assets/76a028d0-5563-4389-8a24-de8d011d4c11" />
+
+
+  <img width="673" height="202" alt="Potential Threat 1-2" src="https://github.com/user-attachments/assets/02ee194e-e5c0-4282-80b0-048c888f61de" />
+
+          
+  
+   
+   -⚠️Potential Threat 2:
+
+      
+<img width="752" height="415" alt="Potential Threat 2" src="https://github.com/user-attachments/assets/11a20b1c-51f9-4aa9-a34c-d93d4de6f8ea" />
+
+      
+<img width="191" height="310" alt="Potential Threat 2-2" src="https://github.com/user-attachments/assets/4cc268d8-cc47-42b8-80d0-62fa42b770c8" />
+
+
+
+
+
+ 📝[Report](https://docs.google.com/document/d/1SHQOB5Hk-8hW-GgkIMCDSlfgtUhH-o7xfhm1dRaCGrw/edit?usp=drive_link)
+
+---
 ## Threat Hunting Workflow
 -----
     Analyst Question
@@ -92,17 +125,17 @@ The framework is capable of supporting **multiple ATT&CK tactics**, depending on
   - KQL queries used
   - Prompt design
 
-| MITRE Tactic        | Supported    | How |
-|-------------        |----------    |--------|
-| Initial Access      | ⚠️ Partial  | Suspicious logon patterns |
-| Credential Access   | ✅ Yes      | Logon events, callers, identities |
-| Discovery           | ⚠️ Partial  | Identity & device exploration |
-| Lateral Movement    | ⚠️ Partial  | Caller/device relationships |
-| Command & Control   | ⚠️ Partial  | Depends on log source |
-| Defense Evasion     | ⚠️ Partial  | Requires expanded telemetry |
+| MITRE Tactic                   | How |
+|---------------------|----------------------------------|
+| Initial Access      | Suspicious logon patterns         
+| Credential Access   | Logon events, callers, identities 
+| Discovery           | Identity & device exploration 
+| Lateral Movement    | Caller/device relationships 
+| Command & Control   | Depends on log source 
+| Defense Evasion     | Requires expanded telemetry 
 ---
 
-## What This POC Does Well
+## What This Does Well
 
 
 ✅ Demonstrates **agentic decision-making**  
