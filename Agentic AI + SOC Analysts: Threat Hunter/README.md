@@ -82,7 +82,7 @@ management, detection engineering, and threat hunting.
 
 
 
- 📝[Report](https://docs.google.com/document/d/1SHQOB5Hk-8hW-GgkIMCDSlfgtUhH-o7xfhm1dRaCGrw/edit?usp=drive_link)
+ 📝[Full Report](https://docs.google.com/document/d/1SHQOB5Hk-8hW-GgkIMCDSlfgtUhH-o7xfhm1dRaCGrw/edit?usp=drive_link)
 
 ---
 ## Threat Hunting Workflow
