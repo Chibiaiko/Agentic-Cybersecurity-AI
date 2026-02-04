@@ -1,48 +1,40 @@
 from typing import Dict, Any, List
 from agents.base_agent import BaseAgent
-from models.risk_model import Risk, RiskLevel, BusinessImpact
+from models.risk_model import Risk, ComplianceMapping
 
-class RiskClassificationAgent(BaseAgent):
+class ComplianceMappingAgent(BaseAgent):
     def __init__(self):
-        super().__init__("Risk Classification Agent")
+        super().__init__("Compliance Mapping Agent")
 
     def run(self, context: Dict[str, Any]) -> Dict[str, Any]:
-        findings = context.get("findings", [])
-        risks = []
+        risks = context.get("risks", [])
         
-        for finding in findings:
-            # Map raw severity to RiskLevel
-            raw_sev = finding.get("raw_severity", "INFO")
-            severity = RiskLevel.INFO
-            cvss = 0.0
-            vector = "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N" # Default zero
+        for risk in risks:
+            mappings = []
             
-            if raw_sev == "CRITICAL":
-                severity = RiskLevel.CRITICAL
-                cvss = 9.8
-                vector = "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
-            elif raw_sev == "HIGH":
-                severity = RiskLevel.HIGH
-                cvss = 7.5
-                vector = "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L" # Simplified
-            elif raw_sev == "MEDIUM":
-                severity = RiskLevel.MEDIUM
-                cvss = 5.3
-                vector = "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
-            elif raw_sev == "LOW":
-                severity = RiskLevel.LOW
-                cvss = 3.1
+            # Example Mappings based on keywords
+            if "credentials" in risk.title.lower() or "secret" in risk.title.lower():
+                mappings.append(ComplianceMapping(
+                    framework="NIST SP 800-53",
+                    control_id="IA-2",
+                    control_title="Identification and Authentication",
+                    justification="Hardcoded credentials violate IAM principles."
+                ))
+                mappings.append(ComplianceMapping(
+                    framework="PCI-DSS",
+                    control_id="8.2.1",
+                    control_title="Strong Credential Management",
+                    justification="Credentials found in clear text."
+                ))
             
-            risk = Risk(
-                id=finding["id"].replace("FIND", "RISK"),
-                title=finding["title"],
-                description=finding["description"],
-                component=finding["component"],
-                severity=severity,
-                cvss_score=cvss,
-                cvss_vector=vector,
-                business_impact=BusinessImpact.LOW  # Placeholder, will be updated by Business Agent
-            )
-            risks.append(risk)
+            if "container" in risk.title.lower() or "docker" in risk.component.lower():
+                mappings.append(ComplianceMapping(
+                    framework="SOC 2",
+                    control_id="CC6.1",
+                    control_title="Logical Access Security",
+                    justification="Container security configuration issue."
+                ))
+                
+            risk.compliance_mappings = mappings
             
         return {"risks": risks}
