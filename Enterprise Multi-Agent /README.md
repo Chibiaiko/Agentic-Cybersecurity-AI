@@ -5,11 +5,11 @@
 
 
 
-<h1 align="center">Enterprise Multi-Agent CI/CD,Security,&Risk Intelligence Platform (POC)</h1>
+<h1 align="center">Enterprise Multi-Agent CI/CD,Security,&Risk Intelligence Platform </h1>
 
 ## Overview
 
-This project implements an **Enterprise Multi-Agent CI/CD Security, Risk, Compliance, Financial & Board Intelligence Platform(POC)** designed to analyze infrastructure and pipelines **before deployment**.
+This project implements a **proof-of-concept, Enterprise Multi-Agent CI/CD Security, Risk, Compliance, Financial & Board Intelligence Platform** designed to analyze infrastructure and pipelines **before deployment**.
 
 The platform identifies technical security risks, enriches them with business, financial, and compliance context, and produces **board-ready intelligence** suitable for executive decision-making.
 
