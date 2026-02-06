@@ -14,7 +14,7 @@ Agentic Cybersecurity AI is security AI that doesn’t just alert—it acts. It 
 - 👾 [Agentic AI + SOC Analysts: Threat Hunter](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/Agentic%20AI%20%2B%20SOC%20Analysts%3A%20Threat%20Hunter)
 - 👾 [Agentic AI for Vulnerability Management](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/Agentic%20AI%20for%20Vulnerability%20Management)
 - 👾 [Enterprise Multi-Agent CI/CD,Security,&Risk Intelligence Platform](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/Enterprise%20Multi-Agent%20)
-- 👾 [Aegis Triage Agent] 🚧UNDER CONSTRUCTION
+- 👾 [Aegis Incident Response & Triage Agent] 🚧UNDER CONSTRUCTION
 - 👾
 - 👾
 - 👾  
