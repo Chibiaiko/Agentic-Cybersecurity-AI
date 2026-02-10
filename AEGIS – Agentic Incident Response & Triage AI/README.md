@@ -6,7 +6,7 @@
   >
 </p>
 
-<h1 align="center">🛡️ AEGIS – Agentic Incident Response & Triage AI (PoC)</h>
+<h1 align="center">🛡️ AEGIS – Agentic Incident Response & Triage AI (PoC)</h1>
 
 
 
