@@ -21,9 +21,16 @@ This PoC uses a **brute force authentication scenario** as the primary demonstra
 > AEGIS is a proof-of-concept agentic IR system that investigates brute force authentication activity and automatically generates SOC-style playbooks and incident timelines.
 
 ---
-# AEGIS Architect 
+## AEGIS Architect 
 
-<img width="600" height="700" alt="Aegis Workflow" src="https://github.com/user-attachments/assets/6a49aa53-8b10-4b40-bb21-dfbca28e3876" />
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/6a49aa53-8b10-4b40-bb21-dfbca28e3876"
+    alt="Aegis Workflow"
+    width="600" height="700"
+  >
+</p>
+
 
 
 ---
@@ -75,7 +82,35 @@ Mapped to:
 
 ## 📸 Portfolio Evidence Section
 
+<img width="843" height="197" alt="1" src="https://github.com/user-attachments/assets/1b84fb91-b64b-475d-a1bc-56298085a7b0" />
 
+ 
+   * Terminal interface for AEGIS Agentic IR & Triage AI
+ 
+   * Host under investigation: `windows-target-1`
+   
+   * Investigation type: Brute-force authentication attempt
+   
+   * Investigation initialization and telemetry collection started
+
+
+<img width="595" height="223" alt="KQLs" src="https://github.com/user-attachments/assets/7f0b93d1-8ed1-43b4-8ddc-8c7b22ed3a56" />
+
+   * Displayed KQL query against DeviceLogonEvents
+   
+   * Large volume of logon events collected (122,075 events)
+   
+   * Validation telemetry matches primary results
+   
+   * Evidence triage performed
+   
+   * Investigation artifacts generated:
+
+       * Playbook text file
+       
+       * PDF incident timeline
+   
+   * Investigation completed successfully
 
 ---
 
@@ -84,7 +119,9 @@ Mapped to:
 AEGIS always generates investigation artifacts, regardless of outcome.
 
 ### 📄 Investigated Playbook
-Link to playbook
+
+[Investigated Playbook](https://docs.google.com/document/d/1jV5-7cYgcyR_zzKFBb5uxSf4Wie7K8-8WnPf48sCfmQ/edit?usp=sharing)
+
 A SOC-style playbook containing:
 
 * Scenario context
@@ -99,7 +136,7 @@ A SOC-style playbook containing:
 
 ### 🕒 Incident Timeline
 
-PDF
+[Incident Response Timeline](https://drive.google.com/file/d/1ppe3p49oSysgiU6HamJokVHd-8Bs5K8p/view?usp=drive_link)
 
 A visual, chronological timeline showing:
 
