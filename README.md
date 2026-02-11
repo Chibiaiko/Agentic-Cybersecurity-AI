@@ -30,15 +30,15 @@ Cybersecurity Agentic AI systems:
 
 ### Cybersecurity Agentic AI
 
-Threat Intelligence & Telemetry
-         ↓
-Adversarial Reasoning
-         ↓
-Risk-Aware Planning
-         ↓
-Guardrailed Action Execution
-         ↓
-Incident Feedback & Learning
+⬐ Threat Intelligence & Telemetry
+
+⬐ Adversarial Reasoning
+
+⬐ Risk-Aware Planning  
+
+⬐ Guardrailed Action Execution   
+
+✓ Incident Feedback & Learning
 
 
 ---
@@ -69,15 +69,15 @@ These systems move beyond reactive responses and operate as proactive agents cap
 
 ### Agentic AI
 
-Perception
-    ↓
-Reasoning
-    ↓
-Planning
-    ↓
-Action Execution
-    ↓
-Feedback Loop
+⬐ Perception
+ 
+⬐ Reasoning
+   
+⬐ Planning
+ 
+⬐ Action Execution
+    
+✓ Feedback Loop
 
 
 ---
