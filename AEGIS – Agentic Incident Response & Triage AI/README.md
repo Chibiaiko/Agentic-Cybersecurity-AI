@@ -1,14 +1,21 @@
 <p align="center">
   <img 
+    src="https://github.com/user-attachments/assets/47023d5f-edb4-4dbd-aa3c-d42035585600"
+    alt="Triage"
+  >
+</p>
+
+
+
+<h1 align="center">🛡️ AEGIS – Agentic Incident Response & Triage AI (PoC)</h1>
+
+<p align="center">
+  <img 
     src="https://github.com/user-attachments/assets/a61daa83-ca17-4ed5-b299-a8e8c968304c"
     alt="Aegis Guardian Shield"
     width="500"
   >
 </p>
-
-<h1 align="center">🛡️ AEGIS – Agentic Incident Response & Triage AI (PoC)</h1>
-
-
 
 **AEGIS** is a **proof-of-concept (PoC)** agentic Incident Response (IR) and triage system that demonstrates how autonomous agents can investigate security detections, assess impact, and generate SOC-ready investigation artifacts using Microsoft Sentinel / Log Analytics data.
 
