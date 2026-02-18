@@ -13,7 +13,7 @@
 
 # 🧠 One-Line Definition
 
-**Zero Trust Agentic AI** is a proof-of-concept execution-driven security reasoning engine that runs an 8-domain Zero Trust evaluation against Azure telemetry, calculates dynamic risk, maps findings to MITRE ATT&CK, and generates executive-grade intelligence reports.**
+**Zero Trust Agentic AI** is a proof-of-concept execution-driven security reasoning engine that runs an 8-domain Zero Trust evaluation against Azure telemetry, calculates dynamic risk, maps findings to MITRE ATT&CK, and generates executive-grade intelligence reports.
 
 ---
 
