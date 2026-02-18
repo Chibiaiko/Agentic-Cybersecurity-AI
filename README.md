@@ -109,4 +109,13 @@ These systems move beyond reactive responses and operate as proactive agents cap
 - 👾 [AEGIS – Agentic Incident Response & Triage AI](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/AEGIS%20%E2%80%93%20Agentic%20Incident%20Response%20%26%20Triage%20AI)
 - 👾 [Agentic AI OpsPilot](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/blob/main/Agentic%20AI%20OpsPilot/)
 - 👾 [Zero Trust Agentic AI](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/Zero%20Trust%20Agentic%20AI)
+- 👾 [SentinelHawk Agentic AI] 🚧UNDER CONSTRUCTION
 - 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
+- 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
+- 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
+- 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
+
+
+
+
+
