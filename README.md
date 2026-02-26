@@ -110,7 +110,7 @@ These systems move beyond reactive responses and operate as proactive agents cap
 - 👾 [Agentic AI OpsPilot](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/blob/main/Agentic%20AI%20OpsPilot/)
 - 👾 [Zero Trust Agentic AI](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/Zero%20Trust%20Agentic%20AI)
 - 👾 [SentinelHawk Agentic AI](https://github.com/Chibiaiko/Agentic-Cybersecurity-AI/tree/main/Sentinel%20Hawk)
-- 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
+- 👾 [STIG Guardian Agentic AI] 🚧UNDER CONSTRUCTION
 - 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
 - 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
 - 👾 [FUTURE PROJECT] 🚧UNDER CONSTRUCTION
